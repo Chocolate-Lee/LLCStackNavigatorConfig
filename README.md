@@ -1,7 +1,7 @@
 # LLCStackNavigatorConfig
 
 # 场景
-React Native中的StackNavigator的跳转动画只有默认两个选项，设置后不能根据跳转不同的界面而更改。
+React Native中的StackNavigator的跳转动画只有默认两个选项，设置后不能根据跳转不同的界面而更改。<br/>
 
 如果有push和modal不同需求的，可以使用本配置方式
 
@@ -19,7 +19,7 @@ React Native中的StackNavigator的跳转动画只有默认两个选项，设置
 # 例子
 
 1.引入
-  import { LLCStackNavigatorConfig } from './LLCNavConfig'
+  import { LLCStackNavigatorConfig } from './LLCNavConfig'<br/>
 2.创建StackNavigator并传入
   const Nav = StackNavigator(RouteConfigs, LLCStackNavigatorConfig);
 3.界面跳转时调用
