@@ -24,3 +24,8 @@ React Native中的StackNavigator的跳转动画只有默认两个选项，设置
   const Nav = StackNavigator(RouteConfigs, LLCStackNavigatorConfig);<br/>
 3.界面跳转时调用<br/>
   this.props.navigation.navigate('VC', {comefrom: 'left', isfade: true});<br/>
+
+# Demo
+
+1.将本仓库内的App.js文件替换到React Native项目中<br/>
+2.将LLCStackNavigatorConfig放在同级目录下，直接运行即可<br/>
