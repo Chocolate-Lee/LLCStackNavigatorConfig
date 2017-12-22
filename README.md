@@ -18,4 +18,9 @@ React Native中的StackNavigator的跳转动画只有默认两个选项，设置
 
 # 例子
 
-this.props.navigation.navigate('D', {comefrom: 'left', isfade: true});
+1.引入
+  import { LLCStackNavigatorConfig } from './LLCNavConfig'
+2.创建StackNavigator并传入
+  const Nav = StackNavigator(RouteConfigs, LLCStackNavigatorConfig);
+3.界面跳转时调用
+  this.props.navigation.navigate('VC', {comefrom: 'left', isfade: true});
