@@ -19,7 +19,7 @@ React Native中的StackNavigator的跳转动画只有默认两个选项，设置
 # 例子
 
 1.引入<br/>
-  import { LLCStackNavigatorConfig } from './LLCNavConfig'<br/><br/>
+  import { LLCStackNavigatorConfig } from './LLCNavConfig'<br/>
 2.创建StackNavigator并传入<br/>
   const Nav = StackNavigator(RouteConfigs, LLCStackNavigatorConfig);<br/>
 3.界面跳转时调用<br/>
