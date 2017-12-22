@@ -29,3 +29,6 @@ React Native中的StackNavigator的跳转动画只有默认两个选项，设置
 
 1.将本仓库内的App.js文件替换到React Native项目中<br/>
 2.将LLCStackNavigatorConfig放在同级目录下，直接运行即可<br/>
+3.由于用到了StackNavigator，运行Demo时别忘了安装react-navigation<br/>
+  yarn add react-navigation<br/>
+  
